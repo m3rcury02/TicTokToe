@@ -299,7 +299,6 @@ class _GameScreenState extends State<GameScreen> {
 
   Widget _buildTimer() {
     final isRunning = timer == null ? false : timer!.isActive;
-
     return isRunning
         ? SizedBox(
             width: 100,
